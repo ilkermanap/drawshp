@@ -8,8 +8,8 @@ sf = shapefile.Reader(sys.argv[1])
 boxX = (sf.bbox[2] - sf.bbox[0]) * factor
 boxY = (sf.bbox[3] - sf.bbox[1]) * factor
 
-xOffset = ((0 - sf.bbox[0])  * factor) - 20
-yOffset = ((0 - sf.bbox[1]) * factor) - 155
+xOffset = ((0 - sf.bbox[0])  * factor) 
+yOffset = ((0 - sf.bbox[1]) * factor) 
 
 print boxX,boxY 
 
